@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?lang=css&amp;skin=desert"></script>
 		<title>CodeGround</title>
-		<link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="../main.css">
 	</head>
 	<body>
 		<div id="page">
 			<header id="header">
 				<div id="header-inner">	
 					<div id="logo">
-						<h1><a href="#">Code<span>Ground</span></a></h1>
+						<h1><a href="../index.html">Code<span>Ground</span></a></h1>
 					</div>
 					<div id="top-nav">
 						<ul>
-						<li><a href="about.html">About</a></li>
+						<li><a href="../about.html">About</a></li>
 						<li><a href="#">Contact</a></li>
 						</ul>
 					</div>
@@ -24,11 +25,11 @@
 			<div class="feature">
 				<div class="feature-inner">
 				<div class="navbar">
-                        <a href="index.html">Home</a>
-                        <a href="search.html">Searching</a>
-                        <a href="sort.html">Sorting</a>
-						<a href="algo.html">Algorithms</a>
-						<a href="ds.html">Data structures</a>
+                        <a href="../index.html">Home</a>
+                        <a href="../search.html">Searching</a>
+                        <a href="../sort.html">Sorting</a>
+						<a href="../algo.html">Algorithms</a>
+						<a href="../ds.html">Data structures</a>
 				  </div>
 				</div>
 			</div>
@@ -39,17 +40,20 @@
 				
 					<main id="contentbar">
 						<div class="article">
-							<a href="pages/linearSearch.html"><h2>Linear Search</h2></a>
+							<h2>Linear Search</h2>
                             <!-- <h2>Insertion Sort</h2> -->
                            	<p>Linear search is a very basic and simple search algorithm. In Linear search, we search an element or value in a given array by traversing the array from the starting, till the desired element or value is found.
 
 								It compares the element to be searched with all the elements present in the array and when the element is matched successfully, it returns the index of the element in the array, else it return -1.
 								
-								Linear Search is applied on unsorted or unordered lists, when there are fewer elements in a list.</p>
-                        </div>
-                        <div class="article">
-                            <h2>Binary Search</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                                Linear Search is applied on unsorted or unordered lists, when there are fewer elements in a list.</p>
+                                <pre class="prettyprint">
+                                            #include&lt;stdio.h&gt;
+                                            int main(){
+                                                printf("Hello World");
+                                                return 0;
+                                            }
+                                </pre>
                         </div>
 					</main>
 					

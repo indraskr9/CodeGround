@@ -13,20 +13,18 @@ body {
     margin:0; 
     padding:0; 
     width:100%; 
-    color:#959595; 
+    color:#464646; 
     font:normal 12px/2.0em Sans-Serif;
 } 
 h1, h2, h3, h4, h5, h6 {
     color:#2ECC71;
 }
-/* pre {
-        display: block;
-        font-family: monospace;
-        white-space: pre;
-        margin: 1em 0;
-        color: black;
-        background: #eff0f2;
-            } */
+pre {
+    text-align: left;
+    white-space: pre-line;
+    padding: 15px;
+    border-radius: 3px;
+  }
 #page {
      background:#eee;
     }
